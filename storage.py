@@ -49,5 +49,3 @@ def backup_state(base_dir: str, backup_dir: str):
     return [backup_path]  
 
 
-def import_from_csv(csv_path: str, course_id: str):
-    import csv  # CSV okuma modülünü sadece bu
